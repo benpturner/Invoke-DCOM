@@ -21,12 +21,12 @@ namespace Invoke_DCOM
         [ArgShortcut("-c"), ArgDescription("Command to execute on the target."), ArgRequired()]
         public string Command { get; set; }
 
-        [ArgShortcut("-e"), ArgDescription("Directory path of executable, e.g. c:\\windows\\"), ArgRequired()]
+        [ArgShortcut("-e"), ArgDescription("Directory path of executable, e.g. c:\\windows\\")]
         public string ExeLocation { get; set; }
     }
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             ExecArgs parsed = null;
             try
@@ -34,7 +34,7 @@ namespace Invoke_DCOM
                 parsed = Args.Parse<ExecArgs>(args);
                 Console.WriteLine($"\n[+] DCOM -> {parsed.Target}");
                 Console.WriteLine($" [>] Method -> {parsed.Method}");
-                Console.WriteLine($" [>] Command -> {parsed.Method}");
+                Console.WriteLine($" [>] Command -> {parsed.Command}");
                 Console.WriteLine($" [>] Exe Location -> {parsed.ExeLocation}");
             }
             catch (MissingArgException e)

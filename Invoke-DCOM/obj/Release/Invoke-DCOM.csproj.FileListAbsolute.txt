@@ -11,7 +11,6 @@ Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\bin\Release\DCOM.exe
 Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\bin\Release\DCOM.pdb
 Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\bin\Release\PowerArgs.dll
 Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\bin\Release\PowerArgs.xml
-Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\obj\Release\Invoke-DCOM.csprojResolveAssemblyReference.cache
 Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\obj\Release\Invoke-DCOM.csproj.CoreCompileInputs.cache
 Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\obj\Release\DCOM.exe
 Z:\Desktop\git\Invoke-DCOM\Invoke-DCOM\obj\Release\DCOM.pdb
